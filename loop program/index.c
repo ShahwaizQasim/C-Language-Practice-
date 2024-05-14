@@ -45,16 +45,28 @@
 #include <stdio.h>
 int main()
 {
-float fahrenheit, celsius;
-printf("Enter Temperature in Fahrenheit: ");
-scanf("%f", &fahrenheit);
-
-celsius = 5 * (fahrenheit-32)/9;
-
-printf("Temperature in Celsius: %.2f\n", celsius);
-
-return 0;
+    int i;
+    for (i = 1; i <= 5; i++)
+    {
+        printf("%d\n", i * 5);
+    }
+    return 0;
+    
 }
+
+// #include <stdio.h>
+// int main()
+// {
+// float fahrenheit, celsius;
+// printf("Enter Temperature in Fahrenheit: ");
+// scanf("%f", &fahrenheit);
+
+// celsius = 5 * (fahrenheit-32)/9;
+
+// printf("Temperature in Celsius: %.2f\n", celsius);
+
+// return 0;
+// }
 
 
 
