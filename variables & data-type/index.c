@@ -19,8 +19,8 @@
 // #include <stdio.h>
 // int main()
 // {
-//     int age = 22;
-//     float pi = 3.142;
+//     int age = 22;  // "%d"
+//     float pi = 3.142;  // %f
 //     char hasgtag = '#';
 //     return 0;
 // }
